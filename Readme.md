@@ -11,6 +11,9 @@ Brief description of your project.
 
 ## Installation
 
+npm install
+npm run start
+
 Instructions on how to install and set up your project.
 
 ## Usage
