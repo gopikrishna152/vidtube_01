@@ -23,17 +23,6 @@ const uploadOnCloudinary = async (filePath) => {
 		return null;
 	}
 };
-// const deleteOnCloudinary = async (fileUrl) => {
-// 	try {
-// 		const file = await cloudinary.uploader.destroy(fileUrl, function (result) {
-// 			console.log('result', result);
-// 		});
-// 		console.log('file', file);
-// 		return file;
-// 	} catch (error) {
-// 		return null;
-// 	}
-// };
 const deleteOnCloudinary = async (url) => {
 	try {
 		const value = await cloudinary.delete_resources(['maqvbl0oos5eztdn13vu'], {

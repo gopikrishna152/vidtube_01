@@ -74,4 +74,4 @@ const updateVideo = asyncHandler(async (req, res) => {
 	);
 	return res.status(200).json(new ApiResponse(200, video, 'Video Updated'));
 });
-export { getAllVideos, publishVideo, getVideoById };
+export { getAllVideos, publishVideo, getVideoById, updateVideo };
